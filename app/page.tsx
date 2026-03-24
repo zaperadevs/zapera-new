@@ -195,7 +195,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section className="relative mx-auto w-full max-w-[1200px] px-10">
+    <section className="relative mx-auto w-full max-w-[1200px] px-5 md:px-10">
       {/* Gradient blob left */}
       <div
         className="pointer-events-none absolute left-[-120px] top-[-60px] h-[500px] w-[500px] rounded-full opacity-60"
@@ -506,7 +506,7 @@ function Work() {
   return (
     <section
       id="work"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-28"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-28"
     >
       {/* Accent blob */}
       <div
@@ -737,7 +737,7 @@ function Services() {
   return (
     <section
       id="services"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-28"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-28"
     >
       <FadeUp className="mb-4 flex justify-center">
         <span
@@ -877,7 +877,7 @@ function Process() {
   return (
     <section
       id="process"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-28"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-28"
     >
       {/* Subtle blob */}
       <div
@@ -1004,7 +1004,7 @@ function Testimonials() {
   return (
     <section
       id="results"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-28"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-28"
     >
       <FadeUp className="mb-4 flex justify-center">
         <span
@@ -1114,11 +1114,11 @@ function CTA() {
   return (
     <section
       id="contact"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-28"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-28"
     >
       <FadeUp>
         <div
-          className="relative overflow-hidden rounded-3xl border px-10 py-20 text-center md:px-20 md:py-24"
+          className="relative overflow-hidden rounded-3xl border px-6 py-14 text-center md:px-20 md:py-24"
           style={{
             borderColor: "rgba(96,70,227,0.25)",
             background: "rgba(96,70,227,0.06)",
@@ -1257,7 +1257,7 @@ const SOCIAL = [
 function Footer() {
   return (
     <footer
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-10"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-10"
       style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
     >
       <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">

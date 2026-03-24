@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Zapera builds AI-powered websites, workflow automations, and custom AI systems that grow your business 24/7.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

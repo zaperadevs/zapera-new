@@ -209,7 +209,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section className="relative mx-auto w-full max-w-[1200px] px-10 pb-8 pt-16">
+    <section className="relative mx-auto w-full max-w-[1200px] px-5 md:px-10 pb-8 pt-16">
       {/* Blobs */}
       <div
         className="pointer-events-none absolute left-[-100px] top-[-80px] h-[500px] w-[500px] rounded-full opacity-50"
@@ -312,7 +312,7 @@ function Hero() {
 
 function Bento() {
   return (
-    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-20">
+    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-14 md:py-20">
       <div className="grid gap-4 lg:grid-cols-3">
         {/* Mission — spans 2 cols */}
         <FadeUp delay={0.04} className="lg:col-span-2">
@@ -670,7 +670,7 @@ function Services() {
   return (
     <section
       id="services"
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-24"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-24"
     >
       {/* Blob */}
       <div
@@ -833,7 +833,7 @@ const DIFFERENTIATORS = [
 
 function WhyZapera() {
   return (
-    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-24">
+    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-24">
       <FadeUp className="mb-4 flex justify-center">
         <span
           className="inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-xs font-medium"
@@ -910,10 +910,10 @@ function WhyZapera() {
 
 function CTA() {
   return (
-    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-24">
+    <section className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-16 md:py-24">
       <FadeUp>
         <div
-          className="relative overflow-hidden rounded-3xl border px-10 py-20 text-center md:px-20 md:py-24"
+          className="relative overflow-hidden rounded-3xl border px-6 py-14 text-center md:px-20 md:py-24"
           style={{
             borderColor: "rgba(96,70,227,0.25)",
             background: "rgba(96,70,227,0.06)",
@@ -1017,7 +1017,7 @@ const SOCIAL = [
 function Footer() {
   return (
     <footer
-      className="relative z-10 mx-auto w-full max-w-[1200px] px-10 py-10"
+      className="relative z-10 mx-auto w-full max-w-[1200px] px-5 md:px-10 py-10"
       style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
     >
       <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
