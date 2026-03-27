@@ -1344,7 +1344,6 @@ export default function Home() {
       <Work />
       <Services />
       <Process />
-      <Testimonials />
       <CTA />
       <Footer />
     </div>
