@@ -102,8 +102,7 @@ function ZaperaLogo() {
 const ABOUT_NAV_LINKS = [
   { label: "Work", href: "/#work" },
   { label: "Services", href: "/#services" },
-  { label: "About", href: "/about" },
-  { label: "Results", href: "/#results" },
+  { label: "About", href: "/about" }
 ];
 
 function Nav() {
@@ -1006,7 +1005,7 @@ function CTA() {
 
 // ─── Footer ───────────────────────────────────────────────────────────────────
 
-const FOOTER_LINKS = ["Work", "Services", "About", "Results", "Contact"];
+const FOOTER_LINKS = ["Work", "Services", "About", "Contact"];
 
 const SOCIAL = [
   { Icon: Linkedin, href: "#", label: "LinkedIn" },

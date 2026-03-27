@@ -87,8 +87,7 @@ const NAV_LINKS = [
   { label: "About", href: "/about" },
   { label: "Our Work", href: "#work" },
   { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
-  { label: "Results", href: "#results" },
+  { label: "Process", href: "#process" }
 ] as const;
 
 function Nav() {
@@ -1244,7 +1243,6 @@ const FOOTER_LINKS = [
   { label: "Work", href: "#work" },
   { label: "Services", href: "#services" },
   { label: "About", href: "/about" },
-  { label: "Results", href: "#results" },
   { label: "Contact", href: "#contact" },
 ];
 
